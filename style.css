@@ -27,11 +27,20 @@ body{
        display: block;
        height: 100vh;
     }
-    .period{
+   .profile-card .upper{
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         
     }
+    .profile-card .upper .text{
+        margin: 0.5rem;
+    }
+    .period{
+        display: flex;
+        justify-content: space-around;  
+
+    }
+  
 }
 .profile-card{
     background-color: hsl(235, 46%, 20%);
@@ -54,12 +63,12 @@ body{
     border-radius: 50%;
     margin: 1rem;    
 }
-.upper p{
+.text p{
     color: rgb(212, 197, 197);
     margin: 1rem;
     font-size: 20px;
 }
-.upper h2{
+.text h2{
     margin: 1rem;
 }
 .period{
