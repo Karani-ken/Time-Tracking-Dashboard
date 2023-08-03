@@ -27,6 +27,11 @@ body{
        display: block;
        height: 100vh;
     }
+    .period{
+        display: flex;
+        justify-content: space-around;
+        
+    }
 }
 .profile-card{
     background-color: hsl(235, 46%, 20%);
@@ -64,6 +69,7 @@ body{
     font-size: 12px;
     line-height: 30px;
 }
+
 .active{
     color: #fff;
 }
